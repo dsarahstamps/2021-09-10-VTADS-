@@ -24,7 +24,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %}
 HEADER
-Web-based Tools for Teaching and Research: Jupyter Notebooks and GitHub
 
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
