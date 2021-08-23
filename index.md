@@ -14,7 +14,7 @@ humantime: "8:00 am - 1:00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2021-09-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-09-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Susanna Werth", "D. Sarah Stamps"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Nathanial Porter", "James Dunson" , "Mark Lemon"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Nathanial Porter", "James Dunson" , "Mark Lemon" , "James McClure"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["swerth@vt.edu","dstamps@vt.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -85,9 +85,8 @@ displayed if the 'eventbrite' field in the header is not set.
 
 {% comment %}
 INTRODUCTION
+Please visit the main workshop page at https://profdev-lms.tlos.vt.edu/courses/2284 for detailed information about this workhop. This page is intended to be used mainly for Set-Up instructions. 
 
-Edit the general explanatory paragraph below if you want to change
-the pitch.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
